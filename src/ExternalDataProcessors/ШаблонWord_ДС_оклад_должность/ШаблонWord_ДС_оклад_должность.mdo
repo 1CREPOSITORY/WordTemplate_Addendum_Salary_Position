@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba579676-edb0-418c-b145-f0af97cd3f72">
+  <producedTypes>
+    <objectType typeId="c1bc0f71-d3d7-4682-a02f-b827bac8c6f3" valueTypeId="b88010a2-ea40-45d9-8a5d-6317daffd0c5"/>
+  </producedTypes>
+  <name>ШаблонWord_ДС_оклад_должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>ШаблонWord_ДС_оклад_должность</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="06457eec-bb0d-47d5-a1ce-c426394bf482"/>
+  <defaultForm>ExternalDataProcessor.ШаблонWord_ДС_оклад_должность.Form.Форма</defaultForm>
+  <attributes uuid="0705eae0-3301-4bb4-896a-4a529970b362">
+    <name>СсылкаНаДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КадровыйПеревод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="562bb3ef-90ce-4672-80eb-ce35cd161bad">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a129a746-396d-4b2f-b3b8-95aef9ba29d1">
+    <name>ПФ_DOC_Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ_DOC_Договор</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>
