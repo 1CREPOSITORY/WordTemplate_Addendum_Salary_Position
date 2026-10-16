@@ -1,4 +1,8 @@
 /build/
 /oscript_modules/
-build/
+/tests/http/settings.local.json
+/DT-INF/PROJECT.PMF
+.project
+.bsl-language-server.json
+/.settings/
 /bin/
